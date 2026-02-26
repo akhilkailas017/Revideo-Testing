@@ -1,0 +1,208 @@
+{
+  "settings": {
+    "size": { "x": 1920, "y": 1080 },
+    "background": "#000d1a"
+  },
+  "timeline": [
+    {
+      "id": "bg-video",
+      "type": "video",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/stars.mp4",
+      "startTime": 0,
+      "duration": 16,
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": "100%", "height": "100%" },
+      "opacity": 0.5,
+      "loop": true,
+      "play": true
+    },
+    {
+      "id": "grad-music",
+      "type": "audio",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/chill-beat.mp3",
+      "startTime": 0,
+      "audioStartTime": 0,
+      "play": true
+    },
+    {
+      "id": "cap-emoji",
+      "type": "text",
+      "text": "🎓",
+      "startTime": 0,
+      "position": { "x": 0, "y": -20 },
+      "fontSize": 10,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 1,
+      "animations": [
+        { "type": "scale",    "to": 18,  "duration": 1.5 },
+        { "type": "rotation", "to": -15, "duration": 0.3 },
+        { "type": "rotation", "to": 15,  "duration": 0.3 },
+        { "type": "rotation", "to": 0,   "duration": 0.3 },
+        { "type": "scale",    "to": 14,  "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "confetti-left",
+      "type": "text",
+      "text": "🎊",
+      "startTime": 1,
+      "position": { "x": -700, "y": 500 },
+      "fontSize": 75,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                       "duration": 0.4 },
+        { "type": "position", "to": { "x": -700, "y": -400 }, "duration": 3 }
+      ]
+    },
+    {
+      "id": "confetti-right",
+      "type": "text",
+      "text": "🎉",
+      "startTime": 1.3,
+      "position": { "x": 700, "y": 500 },
+      "fontSize": 75,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                      "duration": 0.4 },
+        { "type": "position", "to": { "x": 700, "y": -400 }, "duration": 3 }
+      ]
+    },
+    {
+      "id": "star-left",
+      "type": "text",
+      "text": "⭐",
+      "startTime": 2,
+      "position": { "x": -400, "y": 500 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                       "duration": 0.4 },
+        { "type": "position", "to": { "x": -400, "y": -420 }, "duration": 3.5 }
+      ]
+    },
+    {
+      "id": "star-right",
+      "type": "text",
+      "text": "⭐",
+      "startTime": 2.3,
+      "position": { "x": 400, "y": 500 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                      "duration": 0.4 },
+        { "type": "position", "to": { "x": 400, "y": -420 }, "duration": 3.5 }
+      ]
+    },
+    {
+      "id": "congrats-text",
+      "type": "text",
+      "text": "Congratulations!",
+      "startTime": 2.5,
+      "position": { "x": 0, "y": -360 },
+      "fontSize": 120,
+      "fontFamily": "Georgia",
+      "fill": "#FFD700",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,    "duration": 1 },
+        { "type": "scale",   "to": 1.08, "duration": 0.6 },
+        { "type": "scale",   "to": 1,    "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "grad-name",
+      "type": "text",
+      "text": "Marcus Thompson",
+      "startTime": 4,
+      "position": { "x": 0, "y": -210 },
+      "fontSize": 95,
+      "fontFamily": "Georgia",
+      "fill": "#00bfff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.2 }
+      ]
+    },
+    {
+      "id": "degree-text",
+      "type": "text",
+      "text": "Bachelor of Science in Computer Engineering",
+      "startTime": 5.5,
+      "position": { "x": 0, "y": -80 },
+      "fontSize": 44,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "university-text",
+      "type": "text",
+      "text": "🏛️ MIT — Class of 2025",
+      "startTime": 7,
+      "position": { "x": 0, "y": 30 },
+      "fontSize": 52,
+      "fontFamily": "Georgia",
+      "fill": "#a8d8ea",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "quote-text",
+      "type": "text",
+      "text": "\"The future belongs to those who believe in the beauty of their dreams.\"",
+      "startTime": 9,
+      "position": { "x": 0, "y": 200 },
+      "fontSize": 36,
+      "fontFamily": "Georgia",
+      "fill": "#cccccc",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    },
+    {
+      "id": "wish-text",
+      "type": "text",
+      "text": "So proud of you! Go change the world 🚀",
+      "startTime": 11.5,
+      "position": { "x": 0, "y": 330 },
+      "fontSize": 50,
+      "fontFamily": "Arial",
+      "fill": "#FFD700",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 1 },
+        { "type": "scale",   "to": 1.05, "duration": 0.5 },
+        { "type": "scale",   "to": 1,    "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "from-text",
+      "type": "text",
+      "text": "— With love, Mom, Dad & the whole family 💙",
+      "startTime": 13.5,
+      "position": { "x": 0, "y": 430 },
+      "fontSize": 38,
+      "fontFamily": "Arial",
+      "fill": "#aaaaaa",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    }
+  ]
+}

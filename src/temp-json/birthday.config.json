@@ -1,0 +1,202 @@
+{
+  "settings": {
+    "size": { "x": 1920, "y": 1080 },
+    "background": "#0a0015"
+  },
+  "timeline": [
+    {
+      "id": "bg-video",
+      "type": "video",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/stars.mp4",
+      "startTime": 0,
+      "duration": 15,
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": "100%", "height": "100%" },
+      "opacity": 1,
+      "loop": true,
+      "play": true
+    },
+
+    {
+      "id": "birthday-music",
+      "type": "audio",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/chill-beat.mp3",
+      "startTime": 0,
+      "audioStartTime": 0,
+      "play": true
+    },
+
+    {
+      "id": "cake-emoji",
+      "type": "text",
+      "text": "🎂",
+      "startTime": 0,
+      "position": { "x": 0, "y": -20 },
+      "fontSize": 10,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 1,
+      "animations": [
+        { "type": "scale", "to": 18, "duration": 1.5 },
+        { "type": "scale", "to": 15, "duration": 0.5 },
+        { "type": "scale", "to": 17, "duration": 0.3 },
+        { "type": "scale", "to": 15, "duration": 0.3 }
+      ]
+    },
+
+    {
+      "id": "balloon-left",
+      "type": "text",
+      "text": "🎈",
+      "startTime": 1,
+      "position": { "x": -750, "y": 400 },
+      "fontSize": 80,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,    "duration": 0.5 },
+        { "type": "position", "to": { "x": -750, "y": -350 }, "duration": 3 }
+      ]
+    },
+    {
+      "id": "balloon-right",
+      "type": "text",
+      "text": "🎈",
+      "startTime": 1.5,
+      "position": { "x": 750, "y": 400 },
+      "fontSize": 80,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,    "duration": 0.5 },
+        { "type": "position", "to": { "x": 750, "y": -350 }, "duration": 3 }
+      ]
+    },
+    {
+      "id": "balloon-mid",
+      "type": "text",
+      "text": "🎉",
+      "startTime": 2,
+      "position": { "x": -300, "y": 500 },
+      "fontSize": 70,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,    "duration": 0.5 },
+        { "type": "position", "to": { "x": -300, "y": -400 }, "duration": 3.5 }
+      ]
+    },
+    {
+      "id": "confetti-right",
+      "type": "text",
+      "text": "🎊",
+      "startTime": 2.5,
+      "position": { "x": 300, "y": 500 },
+      "fontSize": 70,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,    "duration": 0.5 },
+        { "type": "position", "to": { "x": 300, "y": -400 }, "duration": 3.5 }
+      ]
+    },
+
+    {
+      "id": "happy-text",
+      "type": "text",
+      "text": "Happy Birthday!",
+      "startTime": 2.5,
+      "position": { "x": 0, "y": -350 },
+      "fontSize": 130,
+      "fontFamily": "Georgia",
+      "fill": "#FFD700",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 1 },
+        { "type": "scale",   "to": 1.1, "duration": 0.8 },
+        { "type": "scale",   "to": 1,   "duration": 0.4 }
+      ]
+    },
+
+    {
+      "id": "name-text",
+      "type": "text",
+      "text": "Sarah ✨",
+      "startTime": 4,
+      "position": { "x": 0, "y": -180 },
+      "fontSize": 100,
+      "fontFamily": "Georgia",
+      "fill": "#FF69B4",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                       "duration": 1.2 },
+        { "type": "position", "to": { "x": 0, "y": -180 },   "duration": 0.1 }
+      ]
+    },
+
+    {
+      "id": "wish-line1",
+      "type": "text",
+      "text": "May your day be as wonderful",
+      "startTime": 5.5,
+      "position": { "x": 0, "y": 30 },
+      "fontSize": 52,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "wish-line2",
+      "type": "text",
+      "text": "as you make everyone around you feel! 💖",
+      "startTime": 7,
+      "position": { "x": 0, "y": 110 },
+      "fontSize": 52,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+
+    {
+      "id": "age-badge",
+      "type": "text",
+      "text": "🌟 Turning 25 🌟",
+      "startTime": 9,
+      "position": { "x": 0, "y": 260 },
+      "fontSize": 65,
+      "fontFamily": "Arial",
+      "fill": "#FFA500",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 0.8 },
+        { "type": "scale",   "to": 1.15, "duration": 0.6 },
+        { "type": "scale",   "to": 1,    "duration": 0.4 }
+      ]
+    },
+
+    {
+      "id": "from-text",
+      "type": "text",
+      "text": "With love, from John & Family 💝",
+      "startTime": 11,
+      "position": { "x": 0, "y": 420 },
+      "fontSize": 42,
+      "fontFamily": "Arial",
+      "fill": "#dddddd",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    }
+  ]
+}

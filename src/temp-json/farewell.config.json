@@ -1,0 +1,177 @@
+{
+  "settings": {
+    "size": { "x": 1920, "y": 1080 },
+    "background": "#0a0a0a"
+  },
+  "timeline": [
+    {
+      "id": "bg-video",
+      "type": "video",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/stars.mp4",
+      "startTime": 0,
+      "duration": 17,
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": "100%", "height": "100%" },
+      "opacity": 0.5,
+      "loop": true,
+      "play": true
+    },
+    {
+      "id": "farewell-music",
+      "type": "audio",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/chill-beat.mp3",
+      "startTime": 0,
+      "audioStartTime": 0,
+      "play": true
+    },
+    {
+      "id": "wave-emoji",
+      "type": "text",
+      "text": "👋",
+      "startTime": 0,
+      "position": { "x": 0, "y": -20 },
+      "fontSize": 10,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 1,
+      "animations": [
+        { "type": "scale",    "to": 16,  "duration": 1.5 },
+        { "type": "rotation", "to": 20,  "duration": 0.3 },
+        { "type": "rotation", "to": -10, "duration": 0.3 },
+        { "type": "rotation", "to": 15,  "duration": 0.3 },
+        { "type": "rotation", "to": 0,   "duration": 0.2 },
+        { "type": "scale",    "to": 13,  "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "heart-left",
+      "type": "text",
+      "text": "💛",
+      "startTime": 2,
+      "position": { "x": -750, "y": 200 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "heart-right",
+      "type": "text",
+      "text": "💛",
+      "startTime": 2,
+      "position": { "x": 750, "y": 200 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "farewell-title",
+      "type": "text",
+      "text": "So Long, Farewell...",
+      "startTime": 2.5,
+      "position": { "x": 0, "y": -370 },
+      "fontSize": 90,
+      "fontFamily": "Georgia",
+      "fill": "#f0c040",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    },
+    {
+      "id": "name-text",
+      "type": "text",
+      "text": "We'll miss you, David! 🌟",
+      "startTime": 4,
+      "position": { "x": 0, "y": -220 },
+      "fontSize": 100,
+      "fontFamily": "Georgia",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,    "duration": 1.2 },
+        { "type": "scale",   "to": 1.06, "duration": 0.6 },
+        { "type": "scale",   "to": 1,    "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "role-text",
+      "type": "text",
+      "text": "5 incredible years as our Senior Designer",
+      "startTime": 5.5,
+      "position": { "x": 0, "y": -70 },
+      "fontSize": 50,
+      "fontFamily": "Arial",
+      "fill": "#dddddd",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "next-chapter",
+      "type": "text",
+      "text": "✈️  Off to new adventures in London!",
+      "startTime": 7.5,
+      "position": { "x": 0, "y": 60 },
+      "fontSize": 58,
+      "fontFamily": "Georgia",
+      "fill": "#87ceeb",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 1 },
+        { "type": "scale",   "to": 1.05, "duration": 0.5 },
+        { "type": "scale",   "to": 1,    "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "memory-text",
+      "type": "text",
+      "text": "\"You didn't just leave a job — you left a legacy.\"",
+      "startTime": 9.5,
+      "position": { "x": 0, "y": 210 },
+      "fontSize": 42,
+      "fontFamily": "Georgia",
+      "fill": "#f0c040",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    },
+    {
+      "id": "keep-touch",
+      "type": "text",
+      "text": "Keep in touch! You'll always be family 🤝",
+      "startTime": 11.5,
+      "position": { "x": 0, "y": 330 },
+      "fontSize": 48,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.2 }
+      ]
+    },
+    {
+      "id": "team-sign",
+      "type": "text",
+      "text": "— The entire Acme Corp team 🧡",
+      "startTime": 14,
+      "position": { "x": 0, "y": 440 },
+      "fontSize": 40,
+      "fontFamily": "Arial",
+      "fill": "#aaaaaa",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    }
+  ]
+}

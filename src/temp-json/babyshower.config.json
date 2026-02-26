@@ -1,0 +1,208 @@
+{
+  "settings": {
+    "size": { "x": 1920, "y": 1080 },
+    "background": "#0d0d2b"
+  },
+  "timeline": [
+    {
+      "id": "bg-video",
+      "type": "video",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/stars.mp4",
+      "startTime": 0,
+      "duration": 16,
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": "100%", "height": "100%" },
+      "opacity": 0.35,
+      "loop": true,
+      "play": true
+    },
+    {
+      "id": "baby-music",
+      "type": "audio",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/chill-beat.mp3",
+      "startTime": 0,
+      "audioStartTime": 0,
+      "play": true
+    },
+    {
+      "id": "baby-emoji",
+      "type": "text",
+      "text": "👶",
+      "startTime": 0,
+      "position": { "x": 0, "y": -20 },
+      "fontSize": 10,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 1,
+      "animations": [
+        { "type": "scale", "to": 17, "duration": 1.5 },
+        { "type": "scale", "to": 14, "duration": 0.5 },
+        { "type": "scale", "to": 16, "duration": 0.3 }
+      ]
+    },
+    {
+      "id": "star-float-left",
+      "type": "text",
+      "text": "⭐",
+      "startTime": 1,
+      "position": { "x": -780, "y": 400 },
+      "fontSize": 55,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                       "duration": 0.5 },
+        { "type": "position", "to": { "x": -780, "y": -380 }, "duration": 4 }
+      ]
+    },
+    {
+      "id": "star-float-right",
+      "type": "text",
+      "text": "🌙",
+      "startTime": 1.5,
+      "position": { "x": 780, "y": 400 },
+      "fontSize": 55,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                      "duration": 0.5 },
+        { "type": "position", "to": { "x": 780, "y": -380 }, "duration": 4 }
+      ]
+    },
+    {
+      "id": "heart-float-left",
+      "type": "text",
+      "text": "💙",
+      "startTime": 2,
+      "position": { "x": -450, "y": 450 },
+      "fontSize": 50,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                       "duration": 0.4 },
+        { "type": "position", "to": { "x": -450, "y": -420 }, "duration": 4.5 }
+      ]
+    },
+    {
+      "id": "heart-float-right",
+      "type": "text",
+      "text": "🩷",
+      "startTime": 2.3,
+      "position": { "x": 450, "y": 450 },
+      "fontSize": 50,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                      "duration": 0.4 },
+        { "type": "position", "to": { "x": 450, "y": -420 }, "duration": 4.5 }
+      ]
+    },
+    {
+      "id": "welcome-text",
+      "type": "text",
+      "text": "A Little One is on the Way!",
+      "startTime": 2.5,
+      "position": { "x": 0, "y": -360 },
+      "fontSize": 85,
+      "fontFamily": "Georgia",
+      "fill": "#a8d8ff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,    "duration": 1.2 },
+        { "type": "scale",   "to": 1.05, "duration": 0.6 },
+        { "type": "scale",   "to": 1,    "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "parents-text",
+      "type": "text",
+      "text": "Celebrating Laura & Mike",
+      "startTime": 4,
+      "position": { "x": 0, "y": -210 },
+      "fontSize": 80,
+      "fontFamily": "Georgia",
+      "fill": "#FFD700",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.2 }
+      ]
+    },
+    {
+      "id": "reveal-text",
+      "type": "text",
+      "text": "It's a Boy! 💙",
+      "startTime": 5.5,
+      "position": { "x": 0, "y": -60 },
+      "fontSize": 100,
+      "fontFamily": "Georgia",
+      "fill": "#87ceeb",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 0.8 },
+        { "type": "scale",   "to": 1.1, "duration": 0.6 },
+        { "type": "scale",   "to": 1,   "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "due-date-text",
+      "type": "text",
+      "text": "📅 Due: August 20, 2025",
+      "startTime": 7.5,
+      "position": { "x": 0, "y": 90 },
+      "fontSize": 55,
+      "fontFamily": "Arial",
+      "fill": "#dddddd",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "baby-name-label",
+      "type": "text",
+      "text": "His name will be...",
+      "startTime": 9,
+      "position": { "x": 0, "y": 210 },
+      "fontSize": 48,
+      "fontFamily": "Georgia",
+      "fill": "#cccccc",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 0.8 }
+      ]
+    },
+    {
+      "id": "baby-name-text",
+      "type": "text",
+      "text": "Oliver James 🌟",
+      "startTime": 10.5,
+      "position": { "x": 0, "y": 320 },
+      "fontSize": 90,
+      "fontFamily": "Georgia",
+      "fill": "#a8d8ff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,    "duration": 1 },
+        { "type": "scale",   "to": 1.08, "duration": 0.7 },
+        { "type": "scale",   "to": 1,    "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "from-text",
+      "type": "text",
+      "text": "Shower hosted by the Williams family 🎀",
+      "startTime": 13,
+      "position": { "x": 0, "y": 450 },
+      "fontSize": 38,
+      "fontFamily": "Arial",
+      "fill": "#f4a7b9",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    }
+  ]
+}

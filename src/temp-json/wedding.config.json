@@ -1,0 +1,202 @@
+{
+  "settings": {
+    "size": { "x": 1920, "y": 1080 },
+    "background": "#1a0a00"
+  },
+  "timeline": [
+    {
+      "id": "bg-video",
+      "type": "video",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/stars.mp4",
+      "startTime": 0,
+      "duration": 18,
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": "100%", "height": "100%" },
+      "opacity": 0.4,
+      "loop": true,
+      "play": true
+    },
+    {
+      "id": "wedding-music",
+      "type": "audio",
+      "src": "https://revideo-example-assets.s3.amazonaws.com/chill-beat.mp3",
+      "startTime": 0,
+      "audioStartTime": 0,
+      "play": true
+    },
+    {
+      "id": "rings-emoji",
+      "type": "text",
+      "text": "💍",
+      "startTime": 0,
+      "position": { "x": 0, "y": -20 },
+      "fontSize": 10,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 1,
+      "animations": [
+        { "type": "scale", "to": 16, "duration": 1.5 },
+        { "type": "scale", "to": 13, "duration": 0.5 },
+        { "type": "scale", "to": 15, "duration": 0.3 }
+      ]
+    },
+    {
+      "id": "dove-left",
+      "type": "text",
+      "text": "🕊️",
+      "startTime": 1,
+      "position": { "x": -800, "y": 0 },
+      "fontSize": 70,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                      "duration": 0.5 },
+        { "type": "position", "to": { "x": -550, "y": -80 }, "duration": 2.5 }
+      ]
+    },
+    {
+      "id": "dove-right",
+      "type": "text",
+      "text": "🕊️",
+      "startTime": 1.5,
+      "position": { "x": 800, "y": 0 },
+      "fontSize": 70,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity",  "to": 1,                     "duration": 0.5 },
+        { "type": "position", "to": { "x": 550, "y": -80 }, "duration": 2.5 }
+      ]
+    },
+    {
+      "id": "rose-left",
+      "type": "text",
+      "text": "🌹",
+      "startTime": 2,
+      "position": { "x": -700, "y": 300 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "rose-right",
+      "type": "text",
+      "text": "🌹",
+      "startTime": 2,
+      "position": { "x": 700, "y": 300 },
+      "fontSize": 60,
+      "fontFamily": "Arial",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "together-label",
+      "type": "text",
+      "text": "Together Forever",
+      "startTime": 2.5,
+      "position": { "x": 0, "y": -360 },
+      "fontSize": 55,
+      "fontFamily": "Georgia",
+      "fill": "#c9a96e",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    },
+    {
+      "id": "couple-names",
+      "type": "text",
+      "text": "Emily & James",
+      "startTime": 4,
+      "position": { "x": 0, "y": -220 },
+      "fontSize": 120,
+      "fontFamily": "Georgia",
+      "fill": "#FFD700",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1,   "duration": 1.2 },
+        { "type": "scale",   "to": 1.05, "duration": 0.8 },
+        { "type": "scale",   "to": 1,    "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "heart-divider",
+      "type": "text",
+      "text": "💕  ─────  💕",
+      "startTime": 5.5,
+      "position": { "x": 0, "y": -70 },
+      "fontSize": 45,
+      "fontFamily": "Arial",
+      "fill": "#f4a7b9",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "wedding-date",
+      "type": "text",
+      "text": "June 14, 2025",
+      "startTime": 7,
+      "position": { "x": 0, "y": 40 },
+      "fontSize": 65,
+      "fontFamily": "Georgia",
+      "fill": "#f4a7b9",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.2 }
+      ]
+    },
+    {
+      "id": "venue-text",
+      "type": "text",
+      "text": "📍 The Grand Rose Garden, New York",
+      "startTime": 8.5,
+      "position": { "x": 0, "y": 140 },
+      "fontSize": 42,
+      "fontFamily": "Arial",
+      "fill": "#dddddd",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1 }
+      ]
+    },
+    {
+      "id": "wish-text",
+      "type": "text",
+      "text": "Wishing you a lifetime of love & happiness 💖",
+      "startTime": 10.5,
+      "position": { "x": 0, "y": 280 },
+      "fontSize": 46,
+      "fontFamily": "Georgia",
+      "fill": "#ffffff",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    },
+    {
+      "id": "from-text",
+      "type": "text",
+      "text": "— With blessings from the Johnson Family 🥂",
+      "startTime": 13,
+      "position": { "x": 0, "y": 390 },
+      "fontSize": 38,
+      "fontFamily": "Arial",
+      "fill": "#c9a96e",
+      "opacity": 0,
+      "animations": [
+        { "type": "opacity", "to": 1, "duration": 1.5 }
+      ]
+    }
+  ]
+}
